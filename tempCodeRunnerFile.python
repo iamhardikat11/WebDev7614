@@ -1,0 +1,13 @@
+n=int(input())
+while(1):
+     ch,m=input().split(" ")
+     m=int(m)
+     if(ch=="+"):
+      n=n+m
+     if(ch=='*'):
+      n=n*m
+     if(ch=='%'):
+      n=n%m
+      break
+print(n)
+     
